@@ -8,5 +8,6 @@ namespace FuncionariosHorasTrabalhadas
 {
     internal class Funcionarios
     {
+        //Inserindo
     }
 }
