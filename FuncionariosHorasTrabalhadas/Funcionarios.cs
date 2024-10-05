@@ -8,6 +8,9 @@ namespace FuncionariosHorasTrabalhadas
 {
     internal class Funcionarios
     {
-        //Inserindo
+        public string Nome {  get; private set; }
+
+        private int[] _horas;
+
     }
 }
