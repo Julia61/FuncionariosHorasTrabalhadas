@@ -12,5 +12,12 @@ namespace FuncionariosHorasTrabalhadas
 
         private int[] _horas;
 
+
+        public Funcionarios (string nome, int dias)
+        {
+            Nome = nome;
+            _horas = new int[dias];
+        }
+
     }
 }
