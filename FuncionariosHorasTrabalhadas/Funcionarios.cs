@@ -19,5 +19,13 @@ namespace FuncionariosHorasTrabalhadas
             _horas = new int[dias];
         }
 
+        public void InserindoHoras()
+        {
+            for(int i = 0; i < _horas.Length; i ++)
+            {
+                Console.Write($"Horas de trabalho no {i}° dia: ");
+                _horas[i] = int.Parse(Console.ReadLine());
+            }
+        }
     }
 }
